@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <materialDesign:Card Padding="16" Margin="16">
+            <StackPanel>
+                <TextBlock VerticalAlignment="Top" Style="{DynamicResource MaterialDesignTitleTextBlock}" Margin="268,0,269,0" RenderTransformOrigin="0.62,1.496" Height="47" FontSize="24" FontFamily="Appetite-Rounded ☞">Material Card</TextBlock>
+                <TextBlock FontFamily="Brush Script MT" HorizontalAlignment="Left" Width="215" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336" Foreground="#DDFF0000"><Run Text="Возраст: 27"/></TextBlock>
+                <TextBlock FontFamily="Brush Script MT" HorizontalAlignment="Left" Width="215" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336" Foreground="#DDFF0000"><Run Text="Имя: Олег"/></TextBlock>
+                <TextBlock FontFamily="Brush Script MT" HorizontalAlignment="Left" Width="215" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336" Foreground="#DDFF0000">Пол: Мужской</TextBlock>
+                <TextBlock FontFamily="Brush Script MT" HorizontalAlignment="Left" Width="359" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336" Foreground="#DDFF0000" Height="25">Род деятельности: Программист</TextBlock>
+            </StackPanel>
+        </materialDesign:Card>
+
+        <!--<TextBlock FontFamily="Arial" HorizontalAlignment="Left" Margin="16,147,0,226" Width="215" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336">Возраст: 27</TextBlock>
+        <TextBlock FontFamily="Arial" HorizontalAlignment="Left" Margin="16,193,0,186" Width="215" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336">Пол: Мужской</TextBlock>
+        <TextBlock FontFamily="Arial" HorizontalAlignment="Left" Margin="16,238,0,135" Width="359" Style="{DynamicResource MaterialDesignTitleTextBlock}" RenderTransformOrigin="-0.679,0.336">Род деятельности: Программист</TextBlock>-->
+
+
+    </Grid>
+</Window>
